@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.jexl3.Issues200Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.116 s <<< FAILURE! - in org.apache.commons.jexl3.Issues200Test
+test275a(org.apache.commons.jexl3.Issues200Test)  Time elapsed: 0.091 s  <<< FAILURE!
+java.lang.AssertionError: should have thrown
+	at org.apache.commons.jexl3.Issues200Test.test275a(Issues200Test.java:53)
+

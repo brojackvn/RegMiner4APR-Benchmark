@@ -1,0 +1,231 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2024-08-27T20:35:48+10:00
+
+Notes: 4
+Binaries: 2
+Archives: 0
+Standards: 199
+
+Apache Licensed: 199
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    CONTRIBUTING.md
+  AL    pom.xml
+  AL    src/assembly/bin.xml
+  AL    src/assembly/src.xml
+  AL    src/main/resources/META-INF/services/javax.script.ScriptEngineFactory
+  AL    src/main/java/org/apache/commons/jexl3/JexlInfo.java
+  AL    src/main/java/org/apache/commons/jexl3/package.html
+  AL    src/main/java/org/apache/commons/jexl3/JexlException.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlContext.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Debugger.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/package.html
+  AL    src/main/java/org/apache/commons/jexl3/internal/ScriptVisitor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/SoftCache.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Interpreter.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/TemplateEngine.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/LexicalScope.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Closure.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/IntegerRange.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/SetBuilder.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/InterpreterBase.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/MapBuilder.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/TemplateInterpreter.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Engine.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Operators.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/TemplateDebugger.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Scope.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/LongRange.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Frame.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/LexicalFrame.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Script.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/ArrayBuilder.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/TemplateScript.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/package.html
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ClassMap.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/DuckSetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/SandboxUberspect.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/AbstractExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/MapSetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/DuckGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/MethodExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/Introspector.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/MethodKey.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/FieldGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/PropertySetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/BooleanGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ListGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/Uberspect.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/PropertyGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/MapGetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/Permissions.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/EnumerationIterator.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ArrayIterator.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ConstructorMethod.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ListSetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/IndexedType.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/ArrayListWrapper.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/introspection/FieldSetExecutor.java
+  AL    src/main/java/org/apache/commons/jexl3/internal/Source.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlScript.java
+  AL    src/main/java/org/apache/commons/jexl3/MapContext.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlFeatures.java
+  AL    src/main/java/org/apache/commons/jexl3/annotations/package.html
+  AL    src/main/java/org/apache/commons/jexl3/annotations/NoJexl.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/package.html
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTAnnotation.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTForeachStatement.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/JexlParser.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTJxltLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTJexlScript.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTRegexLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTIdentifierAccessSafeJxlt.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ParserVisitor.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTArrayLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/JexlNode.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ParseException.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTIdentifierAccess.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTAmbiguous.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTMapLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/SimpleNode.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/TokenMgrError.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTBlock.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/JavaccError.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTReferenceExpression.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTIdentifier.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/JexlLexicalNode.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTStringLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTSetLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/FeatureController.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTIdentifierAccessJxlt.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/Parser.jjt
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTJexlLambda.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/NumberParser.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/StringParser.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTNumberLiteral.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTVar.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTNamespaceIdentifier.java
+  AL    src/main/java/org/apache/commons/jexl3/parser/ASTIdentifierAccessSafe.java
+  AL    src/main/java/org/apache/commons/jexl3/ObjectContext.java
+  AL    src/main/java/org/apache/commons/jexl3/scripting/package.html
+  AL    src/main/java/org/apache/commons/jexl3/scripting/JexlScriptEngine.java
+  AL    src/main/java/org/apache/commons/jexl3/scripting/JexlScriptEngineFactory.java
+  AL    src/main/java/org/apache/commons/jexl3/scripting/Main.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlOptions.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlEngine.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlExpression.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlBuilder.java
+  AL    src/main/java/org/apache/commons/jexl3/JxltEngine.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlOperator.java
+  AL    src/main/java/org/apache/commons/jexl3/JexlArithmetic.java
+  AL    src/main/java/org/apache/commons/jexl3/introspection/JexlPropertyGet.java
+  AL    src/main/java/org/apache/commons/jexl3/introspection/package.html
+  AL    src/main/java/org/apache/commons/jexl3/introspection/JexlSandbox.java
+  AL    src/main/java/org/apache/commons/jexl3/introspection/JexlMethod.java
+  AL    src/main/java/org/apache/commons/jexl3/introspection/JexlUberspect.java
+  AL    src/main/java/org/apache/commons/jexl3/introspection/JexlPropertySet.java
+  AL    src/main/config/checkstyle.xml
+  AL    src/main/config/clirr-ignored.xml
+  AL    src/main/config/findbugs-exclude-filter.xml
+  AL    src/main/config/checkstyle-suppressions.xml
+  AL    src/main/config/header.txt
+  B     src/site/resources/images/jexl-logo-white.png
+  B     src/site/resources/images/jexl-logo-white.xcf
+  AL    src/site/site.xml
+  AL    src/site/xdoc/download_jexl.xml
+  AL    src/site/xdoc/index.xml
+  AL    src/site/xdoc/issue-tracking.xml
+  AL    src/site/xdoc/building.xml
+  AL    src/site/xdoc/changes.xml
+  AL    src/site/xdoc/reference/syntax.xml
+  AL    src/site/xdoc/reference/index.xml
+  AL    src/site/xdoc/reference/examples.xml
+  AL    src/site/xdoc/reference/jsr223.xml
+  AL    src/site/xdoc/mail-lists.xml
+  AL    src/test/java/org/apache/commons/jexl3/IssuesTest.java
+  AL    src/test/java/org/apache/commons/jexl3/JexlTestCase.java
+  AL    src/test/java/org/apache/commons/jexl3/VarTest.java
+  AL    src/test/java/org/apache/commons/jexl3/JXLTTest.java
+  AL    src/test/java/org/apache/commons/jexl3/Jexl.java
+  AL    src/test/java/org/apache/commons/jexl3/ArithmeticOperatorTest.java
+  AL    src/test/java/org/apache/commons/jexl3/Issues100Test.java
+  AL    src/test/java/org/apache/commons/jexl3/MapLiteralTest.java
+  AL    src/test/java/org/apache/commons/jexl3/SynchronizedArithmetic.java
+  AL    src/test/java/org/apache/commons/jexl3/ExceptionTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ArithmeticTest.java
+  AL    src/test/java/org/apache/commons/jexl3/AntishCallTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ScriptTest.java
+  AL    src/test/java/org/apache/commons/jexl3/MethodTest.java
+  AL    src/test/java/org/apache/commons/jexl3/BitwiseOperatorTest.java
+  AL    src/test/java/org/apache/commons/jexl3/internal/Dumper.java
+  AL    src/test/java/org/apache/commons/jexl3/internal/Util.java
+  AL    src/test/java/org/apache/commons/jexl3/internal/RangeTest.java
+  AL    src/test/java/org/apache/commons/jexl3/internal/introspection/DiscoveryTest.java
+  AL    src/test/java/org/apache/commons/jexl3/internal/introspection/MethodKeyTest.java
+  AL    src/test/java/org/apache/commons/jexl3/FeaturesTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ContextNamespaceTest.java
+  AL    src/test/java/org/apache/commons/jexl3/LexicalTest.java
+  AL    src/test/java/org/apache/commons/jexl3/Issues200Test.java
+  AL    src/test/java/org/apache/commons/jexl3/PublicFieldsTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ClassCreatorTest.java
+  AL    src/test/java/org/apache/commons/jexl3/SynchronizedOverloadsTest.java
+  AL    src/test/java/org/apache/commons/jexl3/Foo.java
+  AL    src/test/java/org/apache/commons/jexl3/PragmaTest.java
+  AL    src/test/java/org/apache/commons/jexl3/JexlTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ScriptCallableTest.java
+  AL    src/test/java/org/apache/commons/jexl3/AnnotationTest.java
+  AL    src/test/java/org/apache/commons/jexl3/SynchronizedContext.java
+  AL    src/test/java/org/apache/commons/jexl3/parser/ParserTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ArrayLiteralTest.java
+  AL    src/test/java/org/apache/commons/jexl3/SideEffectTest.java
+  AL    src/test/java/org/apache/commons/jexl3/Issues300Test.java
+  AL    src/test/java/org/apache/commons/jexl3/CaptureLog.java
+  AL    src/test/java/org/apache/commons/jexl3/SetLiteralTest.java
+  AL    src/test/java/org/apache/commons/jexl3/JexlEvalContext.java
+  AL    src/test/java/org/apache/commons/jexl3/WhileTest.java
+  AL    src/test/java/org/apache/commons/jexl3/AssignTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ReadonlyContext.java
+  AL    src/test/java/org/apache/commons/jexl3/junit/package.html
+  AL    src/test/java/org/apache/commons/jexl3/junit/AsserterTest.java
+  AL    src/test/java/org/apache/commons/jexl3/junit/Asserter.java
+  AL    src/test/java/org/apache/commons/jexl3/IfTest.java
+  AL    src/test/java/org/apache/commons/jexl3/scripting/JexlScriptEngineOptionalTest.java
+  AL    src/test/java/org/apache/commons/jexl3/scripting/JexlScriptEngineTest.java
+  AL    src/test/java/org/apache/commons/jexl3/RangeTest.java
+  AL    src/test/java/org/apache/commons/jexl3/DoWhileTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ArrayAccessTest.java
+  AL    src/test/java/org/apache/commons/jexl3/BlockTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ClassCreator.java
+  AL    src/test/java/org/apache/commons/jexl3/examples/ArrayTest.java
+  AL    src/test/java/org/apache/commons/jexl3/examples/Output.java
+  AL    src/test/java/org/apache/commons/jexl3/examples/MethodPropertyTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ParseFailuresTest.java
+  AL    src/test/java/org/apache/commons/jexl3/LambdaTest.java
+  AL    src/test/java/org/apache/commons/jexl3/introspection/SandboxTest.java
+  AL    src/test/java/org/apache/commons/jexl3/ForEachTest.java
+  AL    src/test/java/org/apache/commons/jexl3/StrategyTest.java
+  AL    src/test/java/org/apache/commons/jexl3/CacheTest.java
+  AL    src/test/java/org/apache/commons/jexl3/PropertyAccessTest.java
+  AL    src/test/scripts/testAdd.jexl
+  AL    src/test/scripts/test1.jexl
+  AL    src/test/scripts/testA.jexl
+  N     NOTICE.txt
+  N     BUILDING.txt
+  AL    README.md
+  N     RELEASE-NOTES.txt
+  N     LICENSE.txt
+ 
+*****************************************************

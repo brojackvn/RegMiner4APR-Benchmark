@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.jexl3.JXLTTest" time="0.28" tests="156" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/test-classes:/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/classes:/home/student.unimelb.edu.au/anhh1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/student.unimelb.edu.au/anhh1/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student.unimelb.edu.au/anhh1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/surefire/surefirebooter6305536848586598204.jar /home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/surefire 2024-08-27T20-38-35_414-jvmRun1 surefire5857768322758458372tmp surefire_0821302539376462819tmp"/>
+    <property name="surefire.test.class.path" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/test-classes:/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/classes:/home/student.unimelb.edu.au/anhh1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/student.unimelb.edu.au/anhh1/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student.unimelb.edu.au/anhh1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/student.unimelb.edu.au/anhh1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY/target/surefire/surefirebooter6305536848586598204.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_422-8u422-b05-1~20.04-b05"/>
+    <property name="user.name" value="anhh1"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-192-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/student.unimelb.edu.au/anhh1/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_422"/>
+    <property name="user.dir" value="/home/student.unimelb.edu.au/anhh1/working-space/APR/miner_space/cache/RegressionBug-49/BUGGY"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.422-b05"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCharAtBug[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testBadContextNested[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolation[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testImmediateTemplate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate0[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate1[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate2[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testOneLiner[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testInterpolationGlobal[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolationLocal[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationLvsG2[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testMalformed[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test315[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testStatement[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testEscapeString[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testMalformedNested2[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testPrepareTemplate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311a[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311b[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311c[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311d[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311e[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311f[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311g[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311h[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311i[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.021"/>
+  <testcase name="testNestedTemplate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test42[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testComposite[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testConstant[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant2[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant3[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testConstant4[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testPrepareEvaluate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate10[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testMalformedNested[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testOneLinerVar[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport1[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport2[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationLvsG[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testAssign[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testEscape[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testDeferred[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testLexicalTemplate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.004"/>
+  <testcase name="testNested[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInheritedDebugger[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.003"/>
+  <testcase name="testReport[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testImmediate[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testWriter[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.003"/>
+  <testcase name="testTemplatePragmaPro50[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationParameter[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.003"/>
+  <testcase name="testNonEscapeString[0]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testCharAtBug[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testBadContextNested[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testInterpolation[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testImmediateTemplate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.015"/>
+  <testcase name="testTemplate0[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate1[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testTemplate2[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testOneLiner[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolationGlobal[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testInterpolationLocal[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolationLvsG2[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testMalformed[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test315[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testStatement[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testEscapeString[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testMalformedNested2[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testPrepareTemplate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311a[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311b[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311c[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311d[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311e[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311f[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311g[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311h[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311i[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testNestedTemplate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test42[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testComposite[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testConstant[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant2[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant3[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant4[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testPrepareEvaluate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate10[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testMalformedNested[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testOneLinerVar[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testReport1[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport2[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationLvsG[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testAssign[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testEscape[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testDeferred[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testLexicalTemplate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.005"/>
+  <testcase name="testNested[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInheritedDebugger[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testImmediate[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testWriter[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testTemplatePragmaPro50[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationParameter[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.003"/>
+  <testcase name="testNonEscapeString[1]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testCharAtBug[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testBadContextNested[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolation[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testImmediateTemplate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate0[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate1[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate2[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testOneLiner[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolationGlobal[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testInterpolationLocal[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testInterpolationLvsG2[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testMalformed[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test315[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0"/>
+  <testcase name="testStatement[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testEscapeString[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testMalformedNested2[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testPrepareTemplate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311a[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311b[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311c[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311d[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311e[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311f[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311g[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="test311h[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test311i[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testNestedTemplate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="test42[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testComposite[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testConstant2[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant3[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testConstant4[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.012"/>
+  <testcase name="testPrepareEvaluate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testTemplate10[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testMalformedNested[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testOneLinerVar[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testReport1[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport2[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationLvsG[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testAssign[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testEscape[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testDeferred[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.001"/>
+  <testcase name="testLexicalTemplate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testNested[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInheritedDebugger[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testReport[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testImmediate[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testWriter[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testTemplatePragmaPro50[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+  <testcase name="testInterpolationParameter[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.003"/>
+  <testcase name="testNonEscapeString[2]" classname="org.apache.commons.jexl3.JXLTTest" time="0.002"/>
+</testsuite>
