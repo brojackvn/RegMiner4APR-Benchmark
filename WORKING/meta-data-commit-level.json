@@ -16,5 +16,5 @@
     "java_version": "8",
     "build_system": "maven",
     "method_fault": "",
-    "addtional_command": "xvfb"
+    "additional_command": "xvfb"
 }
