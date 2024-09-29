@@ -273,5 +273,6 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "addtional_command": "checkstyle"
 }
