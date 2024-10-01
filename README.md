@@ -2,7 +2,7 @@
 
 ## Repository Structure
 
-Each branch in this repository follows the naming convention RegressionBug-i, where i is the bug identifier. The structure of each branch is as follows:
+Each branch in this repository follows the naming convention `RegressionBug-i`, where `i` is from 1 to 95. The structure of each branch is as follows:
 
 ```
 RegressionBug-i
