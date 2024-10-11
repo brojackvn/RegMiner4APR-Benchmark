@@ -1,6 +1,6 @@
 {
     "id": 2,
-    "subject": "",
+    "subject": "zip4j",
     "bug_id": "RegressionBug-2",
     "source_file": "net/lingala/zip4j/io/inputstream/ZipInputStream.java",
     "method_fault": "net.lingala.zip4j.io.inputstream.ZipInputStream#readUntilEndOfEntry",
@@ -229,5 +229,21 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/powermock-reflect-2.0.2.jar",
+        "target/dependencies/mockito-core-2.28.2.jar",
+        "target/dependencies/objenesis-2.6.jar",
+        "target/dependencies/byte-buddy-1.9.10.jar",
+        "target/dependencies/junit-4.13.1.jar",
+        "target/dependencies/powermock-module-junit4-common-2.0.2.jar",
+        "target/dependencies/assertj-core-3.12.2.jar",
+        "target/dependencies/hamcrest-core-1.3.jar",
+        "target/dependencies/powermock-api-support-2.0.2.jar",
+        "target/dependencies/powermock-core-2.0.2.jar",
+        "target/dependencies/powermock-api-mockito2-2.0.2.jar",
+        "target/dependencies/byte-buddy-agent-1.9.10.jar",
+        "target/dependencies/javassist-3.24.0-GA.jar",
+        "target/dependencies/powermock-module-junit4-2.0.2.jar"
+    ]
 }
