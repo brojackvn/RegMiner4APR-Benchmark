@@ -1,6 +1,6 @@
 {
     "id": 69,
-    "subject": "",
+    "subject": "fastjson",
     "bug_id": "RegressionBug-69",
     "source_file": "",
     "line_number": [],
@@ -15,5 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
+    "dependencies": [],
     "method_fault": ""
 }
