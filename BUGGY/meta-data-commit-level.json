@@ -1,6 +1,6 @@
 {
     "id": 53,
-    "subject": "",
+    "subject": "datasketches-java",
     "bug_id": "RegressionBug-53",
     "source_file": "",
     "line_number": [],
@@ -1377,5 +1377,12 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/slf4j-api-1.7.25.jar",
+        "target/dependencies/memory-0.12.2.jar",
+        "target/dependencies/testng-6.14.3.jar",
+        "target/dependencies/jcommander-1.72.jar",
+        "target/dependencies/bsh-2.0b6.jar"
+    ]
 }
