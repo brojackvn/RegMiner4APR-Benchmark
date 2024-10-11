@@ -1,6 +1,6 @@
 {
     "id": 4,
-    "subject": "",
+    "subject": "LogicNG",
     "bug_id": "RegressionBug-4",
     "source_file": "",
     "line_number": [],
@@ -1149,5 +1149,23 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/antlr4-runtime-4.8.jar",
+        "target/dependencies/mockito-core-3.11.2.jar",
+        "target/dependencies/junit-jupiter-engine-5.6.2.jar",
+        "target/dependencies/junit-jupiter-5.6.2.jar",
+        "target/dependencies/mockito-junit-jupiter-3.11.2.jar",
+        "target/dependencies/mockito-inline-3.11.2.jar",
+        "target/dependencies/junit-jupiter-params-5.6.2.jar",
+        "target/dependencies/junit-platform-engine-1.6.2.jar",
+        "target/dependencies/opentest4j-1.2.0.jar",
+        "target/dependencies/byte-buddy-1.11.3.jar",
+        "target/dependencies/byte-buddy-agent-1.11.3.jar",
+        "target/dependencies/apiguardian-api-1.1.0.jar",
+        "target/dependencies/assertj-core-3.16.1.jar",
+        "target/dependencies/junit-jupiter-api-5.6.2.jar",
+        "target/dependencies/objenesis-3.2.jar",
+        "target/dependencies/junit-platform-commons-1.6.2.jar"
+    ]
 }
