@@ -1,9 +1,13 @@
 {
     "id": 77,
-    "subject": "",
+    "subject": "cron-utils",
     "bug_id": "RegressionBug-77",
-    "source_file": "",
-    "line_number": [],
+    "source_file": "com/cronutils/model/definition/CronDefinitionBuilder.java",
+    "method_fault": "com.cronutils.model.definition.CronDefinitionBuilder#quartz",
+    "line_number": [
+        275,
+        277
+    ],
     "count_neg": 4,
     "count_pos": 549,
     "passing_test_identifiers": [
@@ -566,5 +570,25 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/powermock-module-junit4-common-1.6.2.jar",
+        "target/dependencies/quartz-2.2.3.jar",
+        "target/dependencies/powermock-module-junit4-1.6.2.jar",
+        "target/dependencies/junit-4.12.jar",
+        "target/dependencies/javassist-3.19.0-GA.jar",
+        "target/dependencies/slf4j-api-1.7.12.jar",
+        "target/dependencies/mockito-all-1.10.19.jar",
+        "target/dependencies/javax.mail-1.6.0.jar",
+        "target/dependencies/activation-1.1.jar",
+        "target/dependencies/javaee-api-8.0.jar",
+        "target/dependencies/objenesis-2.1.jar",
+        "target/dependencies/hamcrest-core-1.3.jar",
+        "target/dependencies/powermock-api-support-1.6.2.jar",
+        "target/dependencies/powermock-reflect-1.6.2.jar",
+        "target/dependencies/mockito-core-1.10.19.jar",
+        "target/dependencies/powermock-api-mockito-1.6.2.jar",
+        "target/dependencies/powermock-core-1.6.2.jar",
+        "target/dependencies/c3p0-0.9.1.1.jar"
+    ]
 }
