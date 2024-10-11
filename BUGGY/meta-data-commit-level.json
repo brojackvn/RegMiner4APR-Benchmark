@@ -1,10 +1,10 @@
 {
     "id": 16,
-    "subject": "",
+    "subject": "classgraph",
     "bug_id": "RegressionBug-16",
     "source_file": "",
     "line_number": [],
-    "count_neg": 2,
+    "count_neg": 1,
     "count_pos": 146,
     "passing_test_identifiers": [
         "io.github.classgraph.features.RecordTest#recordJar",
@@ -155,7 +155,6 @@
         "io.github.classgraph.test.ClassGraphTest#scan"
     ],
     "failing_test_identifiers": [
-        "io.github.classgraph.issues.issue128.Issue128Test#issue128Test",
         "io.github.classgraph.issues.issue407.Issue407Test#issue407Test"
     ],
     "source_directory": "src/main/java",
@@ -164,5 +163,35 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/pax-url-aether-2.6.1.jar",
+        "target/dependencies/pax-url-aether-support-2.6.1.jar",
+        "target/dependencies/slf4j-api-2.0.0-alpha1.jar",
+        "target/dependencies/commons-math3-3.2.jar",
+        "target/dependencies/junit-platform-commons-1.6.0.jar",
+        "target/dependencies/maven-resolver-spi-1.3.1.jar",
+        "target/dependencies/slf4j-jdk14-2.0.0-alpha1.jar",
+        "target/dependencies/junit-jupiter-api-5.6.0.jar",
+        "target/dependencies/hibernate-jpa-2.1-api-1.0.2.Final.jar",
+        "target/dependencies/junit-platform-engine-1.6.0.jar",
+        "target/dependencies/cdi-api-2.0.SP1.jar",
+        "target/dependencies/jopt-simple-4.6.jar",
+        "target/dependencies/maven-resolver-impl-1.3.1.jar",
+        "target/dependencies/org.eclipse.jdt.annotation-2.2.400.jar",
+        "target/dependencies/jcl-over-slf4j-1.6.6.jar",
+        "target/dependencies/opentest4j-1.2.0.jar",
+        "target/dependencies/junit-jupiter-params-5.6.0.jar",
+        "target/dependencies/jmh-generator-annprocess-1.23.jar",
+        "target/dependencies/javax.el-api-3.0.0.jar",
+        "target/dependencies/apiguardian-api-1.1.0.jar",
+        "target/dependencies/assertj-core-3.15.0.jar",
+        "target/dependencies/javax.interceptor-api-1.2.jar",
+        "target/dependencies/jmh-core-1.23.jar",
+        "target/dependencies/junit-jupiter-5.6.0.jar",
+        "target/dependencies/javax.inject-1.jar",
+        "target/dependencies/junit-jupiter-engine-5.6.0.jar",
+        "target/dependencies/maven-resolver-api-1.3.1.jar",
+        "target/dependencies/maven-resolver-util-1.3.1.jar"
+    ]
 }
