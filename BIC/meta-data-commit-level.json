@@ -15,5 +15,6 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "gradle"
+    "build_system": "gradle",
+    "dependencies": []
 }
