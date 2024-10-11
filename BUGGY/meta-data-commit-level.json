@@ -1,6 +1,6 @@
 {
     "id": 57,
-    "subject": "",
+    "subject": "overthere",
     "bug_id": "RegressionBug-57",
     "source_file": "",
     "line_number": [],
@@ -285,5 +285,6 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "gradle"
+    "build_system": "gradle",
+    "dependencies": []
 }
