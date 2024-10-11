@@ -1,8 +1,8 @@
 {
     "id": 36,
-    "subject": "",
+    "subject": "univocity-parsers",
     "bug_id": "RegressionBug-36",
-    "source_file": "java/com/univocity/parsers/csv/CsvFormatDetector.java",
+    "source_file": "com/univocity/parsers/csv/CsvFormatDetector.java",
     "method_fault": "com.univocity.parsers.csv.CsvFormatDetector#execute",
     "line_number": [
         180,
@@ -268,5 +268,12 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/bsh-2.0b4.jar",
+        "target/dependencies/univocity-output-tester-2.0.jar",
+        "target/dependencies/jcommander-1.27.jar",
+        "target/dependencies/hsqldb-2.3.2.jar",
+        "target/dependencies/testng-6.8.21.jar"
+    ]
 }
