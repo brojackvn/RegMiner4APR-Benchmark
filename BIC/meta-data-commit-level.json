@@ -1,6 +1,6 @@
 {
     "id": 15,
-    "subject": "",
+    "subject": "eo-yaml",
     "bug_id": "RegressionBug-15",
     "source_file": "",
     "line_number": [],
@@ -15,5 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
+    "dependencies": [],
     "method_fault": ""
 }
