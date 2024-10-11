@@ -1,6 +1,6 @@
 {
     "id": 58,
-    "subject": "",
+    "subject": "HikariCP",
     "bug_id": "RegressionBug-58",
     "source_file": "",
     "line_number": [],
@@ -15,5 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
+    "dependencies": [],
     "method_fault": ""
 }
