@@ -1,6 +1,6 @@
 {
     "id": 20,
-    "subject": "",
+    "subject": "dble",
     "bug_id": "RegressionBug-20",
     "source_file": "",
     "line_number": [],
@@ -15,6 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "method_fault": "",
-    "additional_command": "checkstyle"
+    "dependencies": [],
+    "method_fault": ""
 }
