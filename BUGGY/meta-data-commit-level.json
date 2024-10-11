@@ -1,6 +1,6 @@
 {
     "id": 41,
-    "subject": "",
+    "subject": "jsoup",
     "bug_id": "RegressionBug-41",
     "source_file": "org/jsoup/parser/HtmlTreeBuilderState.java",
     "method_fault": "org.jsoup.parser.HtmlTreeBuilderState#anyOtherEndTag",
@@ -578,5 +578,10 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/junit-4.12.jar",
+        "target/dependencies/gson-2.7.jar",
+        "target/dependencies/hamcrest-core-1.3.jar"
+    ]
 }
