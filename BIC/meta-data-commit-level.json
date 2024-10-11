@@ -1,6 +1,6 @@
 {
     "id": 23,
-    "subject": "",
+    "subject": "stringtemplate4",
     "bug_id": "RegressionBug-23",
     "source_file": "",
     "line_number": [],
@@ -15,6 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "method_fault": "",
-    "additional_command": "xvfb"
+    "dependencies": [],
+    "method_fault": ""
 }
