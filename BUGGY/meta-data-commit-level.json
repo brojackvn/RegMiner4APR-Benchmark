@@ -1,6 +1,6 @@
 {
     "id": 9,
-    "subject": "",
+    "subject": "java-faker",
     "bug_id": "RegressionBug-9",
     "source_file": "",
     "line_number": [],
@@ -491,5 +491,28 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": [
+        "target/dependencies/generex-1.0.2.jar",
+        "target/dependencies/byte-buddy-1.9.3.jar",
+        "target/dependencies/guava-20.0.jar",
+        "target/dependencies/commons-lang3-3.5.jar",
+        "target/dependencies/junit-4.12.jar",
+        "target/dependencies/objenesis-2.6.jar",
+        "target/dependencies/commons-logging-1.2.jar",
+        "target/dependencies/slf4j-api-1.7.25.jar",
+        "target/dependencies/automaton-1.11-8.jar",
+        "target/dependencies/commons-beanutils-1.9.2.jar",
+        "target/dependencies/snakeyaml-1.23-android.jar",
+        "target/dependencies/slf4j-simple-1.7.25.jar",
+        "target/dependencies/mockito-core-2.23.4.jar",
+        "target/dependencies/reflections-0.9.11.jar",
+        "target/dependencies/hamcrest-core-1.3.jar",
+        "target/dependencies/byte-buddy-agent-1.9.3.jar",
+        "target/dependencies/javassist-3.21.0-GA.jar",
+        "target/dependencies/commons-collections-3.2.2.jar",
+        "target/dependencies/commons-validator-1.6.jar",
+        "target/dependencies/commons-digester-1.8.1.jar",
+        "target/dependencies/hamcrest-library-1.3.jar"
+    ]
 }
