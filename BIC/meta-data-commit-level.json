@@ -1,8 +1,9 @@
 {
     "id": 95,
-    "subject": "",
+    "subject": "fastjson",
     "bug_id": "RegressionBug-95",
     "source_file": "",
+    "method_fault": "",
     "line_number": [],
     "count_neg": 0,
     "count_pos": 0,
@@ -15,5 +16,5 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "method_fault": ""
+    "dependencies": []
 }
