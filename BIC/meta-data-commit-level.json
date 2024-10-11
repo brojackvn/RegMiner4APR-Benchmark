@@ -1,8 +1,9 @@
 {
     "id": 63,
-    "subject": "",
+    "subject": "cron-utils",
     "bug_id": "RegressionBug-63",
     "source_file": "",
+    "method_fault": "",
     "line_number": [],
     "count_neg": 0,
     "count_pos": 0,
@@ -15,5 +16,5 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "method_fault": ""
+    "dependencies": []
 }
