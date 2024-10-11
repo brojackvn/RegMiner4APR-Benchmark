@@ -1,6 +1,6 @@
 {
     "id": 7,
-    "subject": "",
+    "subject": "aviatorscript",
     "bug_id": "RegressionBug-7",
     "source_file": "",
     "line_number": [],
@@ -15,5 +15,6 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
+    "dependencies": [],
     "method_fault": ""
 }
