@@ -1,6 +1,6 @@
 {
     "id": 52,
-    "subject": "",
+    "subject": "datasketches-java",
     "bug_id": "RegressionBug-52",
     "source_file": "",
     "method_fault": "",
@@ -15,5 +15,6 @@
     "test_class_directory": "target/test-classes",
     "language": "java",
     "java_version": "8",
-    "build_system": "maven"
+    "build_system": "maven",
+    "dependencies": []
 }
