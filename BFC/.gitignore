@@ -14,11 +14,7 @@ target/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Allow jar files in the generated-dependencies folder
-!generated-dependencies/*.jar
-
 # Package Files #
-*.jar
 *.war
 *.ear
 
