@@ -592,14 +592,14 @@
     "java_version": "8",
     "build_system": "maven",
     "dependencies": [
-        "target/dependencies/spring-core-4.3.16.RELEASE.jar",
-        "target/dependencies/spring-expression-4.3.16.RELEASE.jar",
-        "target/dependencies/spring-aop-4.3.16.RELEASE.jar",
-        "target/dependencies/commons-logging-1.2.jar",
-        "target/dependencies/spring-beans-4.3.16.RELEASE.jar",
-        "target/dependencies/junit-4.3.1.jar",
-        "target/dependencies/spring-context-4.3.16.RELEASE.jar",
-        "target/dependencies/commons-collections-3.2.2.jar",
-        "target/dependencies/commons-beanutils-1.9.3.jar"
+        "generated-dependencies/spring-core-4.3.16.RELEASE.jar",
+        "generated-dependencies/spring-expression-4.3.16.RELEASE.jar",
+        "generated-dependencies/spring-aop-4.3.16.RELEASE.jar",
+        "generated-dependencies/commons-logging-1.2.jar",
+        "generated-dependencies/spring-beans-4.3.16.RELEASE.jar",
+        "generated-dependencies/junit-4.3.1.jar",
+        "generated-dependencies/spring-context-4.3.16.RELEASE.jar",
+        "generated-dependencies/commons-collections-3.2.2.jar",
+        "generated-dependencies/commons-beanutils-1.9.3.jar"
     ]
 }
