@@ -10,7 +10,6 @@ dependency-reduced-pom.xml
 **/*.iml
 
 *.class
-*.jar
 *.war
 *.ear
 *.iml
