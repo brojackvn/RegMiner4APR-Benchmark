@@ -279,15 +279,15 @@ task dumpVersion << {
   out.write("version=$project.version")
 }
 
-task copyDependencies(type: Copy) {
-    // Set the output directory to build/dependencies
-    def outputDir = file("./generated-dependencies")
+// task copyDependencies(type: Copy) {
+//     // Set the output directory to build/dependencies
+//     def outputDir = file("./generated-dependencies")
 
-    // Include all runtime dependencies
-    from configurations.runtimeClasspath
-    into outputDir
+//     // Include all runtime dependencies
+//     from configurations.runtimeClasspath
+//     into outputDir
 
-    // Optionally, include all compile dependencies
-    from configurations.compileClasspath
-    into outputDir
-}
+//     // Optionally, include all compile dependencies
+//     from configurations.compileClasspath
+//     into outputDir
+// }
