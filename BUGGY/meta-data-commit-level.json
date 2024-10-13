@@ -1379,10 +1379,10 @@
     "java_version": "8",
     "build_system": "maven",
     "dependencies": [
-        "target/dependencies/slf4j-api-1.7.25.jar",
-        "target/dependencies/memory-0.12.2.jar",
-        "target/dependencies/testng-6.14.3.jar",
-        "target/dependencies/jcommander-1.72.jar",
-        "target/dependencies/bsh-2.0b6.jar"
+        "generated-dependencies/slf4j-api-1.7.25.jar",
+        "generated-dependencies/memory-0.12.2.jar",
+        "generated-dependencies/testng-6.14.3.jar",
+        "generated-dependencies/jcommander-1.72.jar",
+        "generated-dependencies/bsh-2.0b6.jar"
     ]
 }
