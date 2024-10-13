@@ -197,11 +197,11 @@
     "java_version": "8",
     "build_system": "maven",
     "dependencies": [
-        "target/dependencies/junit-4.11.jar",
-        "target/dependencies/sdp-api-1.0.jar",
-        "target/dependencies/weupnp-0.1.4.jar",
-        "target/dependencies/hamcrest-core-1.3.jar",
-        "target/dependencies/java-sdp-nist-bridge-1.1.jar",
-        "target/dependencies/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar"
+        "generated-dependencies/junit-4.11.jar",
+        "generated-dependencies/sdp-api-1.0.jar",
+        "generated-dependencies/weupnp-0.1.4.jar",
+        "generated-dependencies/hamcrest-core-1.3.jar",
+        "generated-dependencies/java-sdp-nist-bridge-1.1.jar",
+        "generated-dependencies/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar"
     ]
 }
