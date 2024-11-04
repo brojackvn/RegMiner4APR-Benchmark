@@ -15,7 +15,7 @@ RegressionBug-i
 ## REGMINER4APR - REGRESSION BUGS
 
 | Bug ID   | Repository | BIC      | BFC      | Test Case |
-|----------|------------|----------|----------|-----------|
+|:---------|:-----------|:---------|:---------|:----------|
 | RegressionBug-1 | w3c/epubcheck | 25c0b3726c7284596a87551b82128fa41b636662 | 4e17714866ca4e8b183e001badf7bd5fd63f2216 | com.adobe.epubcheck.api.Epub30CheckExpandedTest#testIssue922 |
 | RegressionBug-2 | srikanth-lingala/zip4j | d5c5b413a2996bceb65db4adfd353030baf21d94 | 13c170672da595561163804dc62451dc21bfc870 | net.lingala.zip4j.io.inputstream.ZipInputStreamIT#testReadingZipBySkippingDataCreatedWithJDKZipReadsAllEntries |
 | RegressionBug-3 | logic-ng/LogicNG | 87f078c124e5611be639dda3df7d26b7ac5bc74b | d76c40e2ff95f3906658472befd25ceaffca4b3d | org.logicng.transformations.FormulaFactoryImporterTest#testImplication |
