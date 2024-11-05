@@ -1,6 +1,6 @@
 # RegMiner4APR-Regression-Bugs
 
-## Repository Structure
+## 📄 Repository Structure
 
 Each branch in this repository follows the naming convention `RegressionBug-i`, where `i` is from 1 to 95. The structure of each branch is as follows:
 
@@ -12,7 +12,10 @@ RegressionBug-i
 |___ WORKING
 ```
 
-## REGMINER4APR - REGRESSION BUGS
+## 🗄️ Data Availability
+The complete dataset, including all versions and associated metadata, is accessible on [Figshare]() for permanent storage and easy reproducibility.
+
+## 📜 REGMINER4APR - REGRESSION BUGS
 
 | Bug ID   | Repository | BIC      | BFC      | Test Cases |
 |:---------|:-----------|:---------|:---------|:-----------|
