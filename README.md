@@ -17,6 +17,8 @@ The complete dataset, including all versions and associated metadata, is accessi
 
 ## 📜 REGMINER4APR - REGRESSION BUGS
 
+Below is the raw bug information, prior to the migration of test cases and their dependencies.
+
 | Bug ID   | Repository | BIC      | BFC      | Test Cases |
 |:---------|:-----------|:---------|:---------|:-----------|
 | RegressionBug-1 | w3c/epubcheck | 25c0b3726c7284596a87551b82128fa41b636662 | 4e17714866ca4e8b183e001badf7bd5fd63f2216 | com.adobe.epubcheck.api.Epub30CheckExpandedTest#testIssue922 |
