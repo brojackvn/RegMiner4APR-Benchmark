@@ -8,7 +8,10 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.google.template.soy.jssrc.internal.JsCodeBuilderTest#testOutputVarWithConcat",
+        "com.google.template.soy.jssrc.internal.GenJsCodeVisitorTest#testIf"
+    ],
     "source_directory": "java/src",
     "class_directory": "target/classes",
     "test_directory": "java/tests",
