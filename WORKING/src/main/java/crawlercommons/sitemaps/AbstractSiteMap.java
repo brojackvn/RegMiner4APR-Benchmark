@@ -1,0 +1,231 @@
+/**
+ * Copyright 2016 Crawler-Commons
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package crawlercommons.sitemaps;
+
+import java.net.URL;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.xml.bind.DatatypeConverter;
+
+/** SiteMap or SiteMapIndex **/
+public abstract class AbstractSiteMap {
+
+    /** Various Sitemap types */
+    public enum SitemapType {
+        INDEX, XML, ATOM, RSS, TEXT
+    };
+
+    // 1997-07-16T19:20+01:00
+    private static final Pattern W3C_NO_SECONDS_PATTERN = Pattern.compile("(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\dT\\d\\d:\\d\\d)(\\-|\\+)(\\d\\d):(\\d\\d)");
+    private static final ThreadLocal<DateFormat> W3C_NO_SECONDS_FORMAT = new ThreadLocal<DateFormat>() {
+
+        protected DateFormat initialValue() {
+            return new SimpleDateFormat("yyyy-MM-dd'T'HH:mmZ", Locale.ROOT);
+        }
+    };
+
+    private static final ThreadLocal<DateFormat> W3C_FULLDATE_FORMAT = new ThreadLocal<DateFormat>() {
+        protected DateFormat initialValue() {
+            SimpleDateFormat result = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX", Locale.ROOT);
+            result.setTimeZone(TimeZone.getTimeZone("UTC"));
+            return result;
+        }
+    };
+
+    private static final ThreadLocal<DateFormat> W3C_FULLDATE_FORMAT_WITH_OFFSET = new ThreadLocal<DateFormat>() {
+        protected DateFormat initialValue() {
+            SimpleDateFormat result = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ", Locale.ROOT);
+            result.setTimeZone(TimeZone.getTimeZone("UTC"));
+            return result;
+        }
+    };
+
+    /**
+     * The set of date-time formats which could be used as pubDate in RSS.
+     */
+    private static final ThreadLocal<DateFormat[]> RSS_DATE_FORMATS = new ThreadLocal<DateFormat[]>() {
+        @Override
+        protected DateFormat[] initialValue() {
+            return new DateFormat[] { new SimpleDateFormat("EEE, dd MMM yy HH:mm:ss Z", Locale.ROOT), new SimpleDateFormat("dd MMM yy HH:mm:ss Z", Locale.ROOT),
+                            new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.ROOT), new SimpleDateFormat("dd MMM yyyy HH:mm:ss Z", Locale.ROOT) };
+        }
+    };
+
+    /** W3C date the Sitemap was last modified */
+    private Date lastModified;
+
+    /** This Sitemap's type */
+    private SitemapType type;
+
+    /** indicate if the Sitemap has been processed. */
+    private boolean processed;
+
+    protected URL url;
+
+    public AbstractSiteMap() {
+        lastModified = null;
+    }
+
+    public static DateFormat getFullDateFormat() {
+        return W3C_FULLDATE_FORMAT.get();
+    }
+
+    public boolean isIndex() {
+        return (type == SitemapType.INDEX);
+    };
+
+    /**
+     * @return the URL of the Sitemap
+     */
+    public URL getUrl() {
+        return url;
+    }
+
+    /**
+     * @param type
+     *            the Sitemap type to set
+     */
+    public void setType(SitemapType type) {
+        this.type = type;
+    }
+
+    /**
+     * @return the Sitemap type
+     */
+    public SitemapType getType() {
+        return type;
+    }
+
+    /**
+     * @param processed
+     *            - indicate if the Sitemap has been processed.
+     */
+    public void setProcessed(boolean processed) {
+        this.processed = processed;
+    }
+
+    /**
+     * @return true if the Sitemap has been processed i.e it contains at least
+     *         one SiteMapURL
+     */
+    public boolean isProcessed() {
+        return processed;
+    }
+
+    /**
+     * @param lastModified
+     *            - the lastModified to set
+     */
+    public void setLastModified(Date lastModified) {
+        this.lastModified = lastModified;
+    }
+
+    /**
+     * @param lastModified
+     *            - the lastModified to set
+     */
+    public void setLastModified(String lastModified) {
+        this.lastModified = SiteMap.convertToDate(lastModified);
+    }
+
+    /**
+     * @return the lastModified date of the Sitemap
+     */
+    public Date getLastModified() {
+        return lastModified;
+    }
+
+    /**
+     * Convert the given date (given in an acceptable DateFormat), null if the
+     * date is not in the correct format.
+     * 
+     * @param date
+     *            - the date to be parsed
+     * @return the Date equivalent or NULL when encountering an unparsable date
+     *         string argument
+     */
+    public static Date convertToDate(String date) {
+
+        if (date == null) {
+            return null;
+        }
+
+        try {
+            return getFullDateFormat().parse(date);
+        } catch (ParseException e1) {
+        }
+
+        try {
+            return DatatypeConverter.parseDateTime(date).getTime();
+        } catch (IllegalArgumentException e) {
+            // See if it's the one W3C case that the javax.xml.bind
+            // implementation (incorrectly) doesn't handle.
+            Matcher m = W3C_NO_SECONDS_PATTERN.matcher(date);
+            if (m.matches()) {
+                try {
+                    // Convert to a format that Java can parse, which means
+                    // time zone has to be "-/+HHMM", not "+/-HH:MM"
+                    StringBuffer mungedDate = new StringBuffer(m.group(1));
+                    mungedDate.append(m.group(2));
+                    mungedDate.append(m.group(3));
+                    mungedDate.append(m.group(4));
+                    return W3C_NO_SECONDS_FORMAT.get().parse(mungedDate.toString());
+                } catch (ParseException e2) {
+                    return null;
+                }
+            } else {
+                return null;
+            }
+        }
+    }
+
+    /**
+     * Converts pubDate of RSS to the string representation which could be
+     * parsed in {@link #convertToDate(String)} method.
+     * 
+     * @param pubDate
+     *            - date time of pubDate in RFC822
+     * @return converted to &quot;yyyy-MM-dd'T'HH:mm:ssZ&quot; format or
+     *         original value if it doesn't follow the RFC822
+     */
+    public static String normalizeRSSTimestamp(String pubDate) {
+        if (pubDate == null) {
+            return null;
+        }
+        Date date = null;
+        for (DateFormat format : RSS_DATE_FORMATS.get()) {
+            try {
+                date = format.parse(pubDate);
+                break;
+            } catch (ParseException ex) {
+                // try next one
+            }
+        }
+        if (date == null) {
+            return pubDate;
+        }
+        return W3C_FULLDATE_FORMAT_WITH_OFFSET.get().format(date);
+    }
+
+}
