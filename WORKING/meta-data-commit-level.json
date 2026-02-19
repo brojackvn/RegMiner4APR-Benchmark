@@ -3,11 +3,14 @@
     "subject": "blade",
     "bug_id": "RegressionBug-94",
     "source_file": "",
+    "method_fault": "",
     "line_number": [],
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.blade.mvc.handler.RequestInvokerTest#testRequestHandlerWebHook"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
@@ -15,6 +18,5 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "dependencies": [],
-    "method_fault": ""
+    "dependencies": []
 }
