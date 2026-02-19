@@ -7,7 +7,9 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.stringtemplate.v4.test.TestModelAdaptors#testHandlesKeysNotComparableToString"
+    ],
     "source_directory": "src",
     "class_directory": "target/classes",
     "test_directory": "test",
