@@ -1,0 +1,31 @@
+{
+    "id": 149,
+    "subject": "javaewah",
+    "bug_id": "RegressionBug-149",
+    "source_file": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.googlecode.javaewah.EWAHCompressedBitmapTest#issue74",
+        "com.googlecode.javaewah.EWAHCompressedBitmapTest#issue72a",
+        "com.googlecode.javaewah32.EWAHCompressedBitmap32Test#issue73",
+        "com.googlecode.javaewah.EWAHCompressedBitmapTest#issue72b",
+        "com.googlecode.javaewah32.EWAHCompressedBitmap32Test#issue72b",
+        "com.googlecode.javaewah.EWAHCompressedBitmapTest#issue73",
+        "com.googlecode.javaewah32.EWAHCompressedBitmap32Test#issue72a",
+        "com.googlecode.javaewah32.EWAHCompressedBitmap32Test#issue74",
+        "com.googlecode.javaewah.EWAHCompressedBitmapTest#issue72c",
+        "com.googlecode.javaewah32.EWAHCompressedBitmap32Test#issue72c"
+    ],
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": [],
+    "method_fault": ""
+}
