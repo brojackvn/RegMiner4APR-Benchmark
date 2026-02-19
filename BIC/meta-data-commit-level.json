@@ -7,7 +7,9 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.jsoup.nodes.TextNodeTest#testLeadNodesHaveNoChildren"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
