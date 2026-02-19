@@ -1,0 +1,23 @@
+{
+    "id": 112,
+    "subject": "commons-beanutils",
+    "bug_id": "RegressionBug-112",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.apache.commons.beanutils.bugs.Jira458TestCase#testConversionWithNullDefaultEmptyString",
+        "org.apache.commons.beanutils.bugs.Jira458TestCase#testConversionWithNullDefaultNullInput"
+    ],
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
