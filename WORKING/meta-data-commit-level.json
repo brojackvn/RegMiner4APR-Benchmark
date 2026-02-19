@@ -1,0 +1,23 @@
+{
+    "id": 118,
+    "subject": "gson",
+    "bug_id": "RegressionBug-118",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.google.gson.regression.JsonAdapterNullSafeTest#testNullSafeBugDeserialize",
+        "com.google.gson.regression.JsonAdapterNullSafeTest#testNullSafeBugSerialize"
+    ],
+    "source_directory": "gson/src/main/java",
+    "class_directory": "gson/target/classes",
+    "test_directory": "gson/src/test/java",
+    "test_class_directory": "gson/target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
