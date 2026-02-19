@@ -3,11 +3,14 @@
     "subject": "fastjson",
     "bug_id": "RegressionBug-71",
     "source_file": "",
+    "method_fault": "",
     "line_number": [],
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.alibaba.json.bvt.issue_1400.Issue1422#test_for_issue_1"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
@@ -15,6 +18,5 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "dependencies": [],
-    "method_fault": ""
+    "dependencies": []
 }
