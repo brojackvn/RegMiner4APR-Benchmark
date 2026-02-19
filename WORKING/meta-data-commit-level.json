@@ -1,0 +1,22 @@
+{
+    "id": 129,
+    "subject": "spring-data-rest",
+    "bug_id": "RegressionBug-129",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.springframework.data.rest.webmvc.config.RepositoryRestMvConfigurationIntegrationTests#registersRepositoryRestConfigurersInDeclaredOrder"
+    ],
+    "source_directory": "spring-data-rest-webmvc/src/main/java",
+    "class_directory": "spring-data-rest-webmvc/target/classes",
+    "test_directory": "spring-data-rest-webmvc/src/test/java",
+    "test_class_directory": "spring-data-rest-webmvc/target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
