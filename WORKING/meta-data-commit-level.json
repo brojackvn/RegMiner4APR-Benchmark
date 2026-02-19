@@ -3,11 +3,14 @@
     "subject": "closure-templates",
     "bug_id": "RegressionBug-85",
     "source_file": "",
+    "method_fault": "",
     "line_number": [],
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.google.template.soy.jssrc.internal.TranslateExprNodeVisitorTest#testVeLiteral"
+    ],
     "source_directory": "java/src",
     "class_directory": "target/classes",
     "test_directory": "java/tests",
@@ -15,6 +18,5 @@
     "language": "java",
     "java_version": "8",
     "build_system": "maven",
-    "dependencies": [],
-    "method_fault": ""
+    "dependencies": []
 }
