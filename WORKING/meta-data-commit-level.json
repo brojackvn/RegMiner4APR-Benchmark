@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "subject": "spring-amqp",
+    "bug_id": "RegressionBug-134",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.springframework.amqp.support.converter.Jackson2JsonMessageConverterTests.concreteInMapRegression",
+        "org.springframework.amqp.support.converter.Jackson2JsonMessageConverterTests.concreteInListRegression"
+    ],
+    "source_directory": "spring-amqp/src/main/java",
+    "class_directory": "spring-amqp/build/classes/java/main",
+    "test_directory": "spring-amqp/src/test/java",
+    "test_class_directory": "spring-amqp/build/classes/java/test",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "gradle",
+    "dependencies": []
+}
