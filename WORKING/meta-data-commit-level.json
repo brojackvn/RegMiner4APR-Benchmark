@@ -1,0 +1,22 @@
+{
+    "id": 131,
+    "subject": "spring-amqp",
+    "bug_id": "RegressionBug-131",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapterTests#headers"
+    ],
+    "source_directory": "spring-rabbit/src/main/java",
+    "class_directory": "spring-rabbit/build/classes/java/main",
+    "test_directory": "spring-rabbit/src/test/java",
+    "test_class_directory": "spring-rabbit/build/classes/java/test",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "gradle",
+    "dependencies": []
+}

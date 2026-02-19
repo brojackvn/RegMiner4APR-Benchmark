@@ -1,0 +1,86 @@
+apply plugin: 'maven-publish'
+apply plugin: 'com.jfrog.artifactory'
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			pom {
+				afterEvaluate {
+					name = project.description
+					description = project.description
+				}
+				url = linkScmUrl
+				organization {
+					name = 'Spring IO'
+					url = 'https://spring.io/projects/spring-kafka'
+				}
+				licenses {
+					license {
+						name = 'Apache License, Version 2.0'
+						url = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+						distribution = 'repo'
+					}
+				}
+				scm {
+					url = linkScmUrl
+					connection = linkScmConnection
+					developerConnection = linkScmDevConnection
+				}
+				developers {
+					developer {
+						id = 'garyrussell'
+						name = 'Gary Russell'
+						email = 'grussell@pivotal.io'
+						roles = ['project lead']
+					}
+					developer {
+						id = 'artembilan'
+						name = 'Artem Bilan'
+						email = 'abilan@pivotal.io'
+					}
+					developer {
+						id = 'dsyer'
+						name = 'Dave Syer'
+						email = 'dsyer@pivotal.io'
+					}
+					developer {
+						id = 'markfisher'
+						name = 'Mark Fisher'
+						email = 'mfisher@pivotal.io'
+					}
+					developer {
+						id = 'mpollack'
+						name = 'Mark Pollack'
+						email = 'mpollack@pivotal.io'
+					}
+					developer {
+						id = 'jbrisbin'
+						name = 'Jon Brisbin'
+						email = 'jbrisbin@pivotal.io'
+					}
+					developer {
+						id = 'tomas.lukosius'
+						name = 'Tomas Lukosius'
+						email = 'tomas.lukosius@opencredo.com'
+					}
+				}
+				issueManagement {
+					system = 'GitHub'
+					url = linkIssue
+				}
+			}
+			versionMapping {
+				usage('java-api') {
+					fromResolutionResult()
+				}
+				usage('java-runtime') {
+					fromResolutionResult()
+				}
+			}
+		}
+	}
+}
+
+artifactoryPublish {
+	publications(publishing.publications.mavenJava)
+}
