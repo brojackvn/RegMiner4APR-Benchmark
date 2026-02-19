@@ -1,0 +1,23 @@
+{
+    "id": 122,
+    "subject": "commons-jexl",
+    "bug_id": "RegressionBug-122",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.apache.commons.jexl3.PublicFieldsTest#testGetStaticField",
+        "org.apache.commons.jexl3.PublicFieldsTest#testGetEnum"
+    ],
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
