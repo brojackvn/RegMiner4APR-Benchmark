@@ -8,11 +8,13 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.xebialabs.overthere.CmdLineTest#shouldEncodeCorrectlyForWindows"
+    ],
     "source_directory": "src/main/java",
-    "class_directory": "target/classes",
+    "class_directory": "build/classes/java/main",
     "test_directory": "src/test/java",
-    "test_class_directory": "target/test-classes",
+    "test_class_directory": "build/classes/java/test",
     "language": "java",
     "java_version": "8",
     "build_system": "gradle",
