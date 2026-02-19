@@ -7,7 +7,10 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.alibaba.json.bvt.issue_2500.Issue2516#test_for_issue",
+        "com.alibaba.json.bvt.bug.bug2019.Bug20190729_01#test_for_issue"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
