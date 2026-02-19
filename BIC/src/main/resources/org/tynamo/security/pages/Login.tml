@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+
+	<head>
+		<title>Login page</title>
+		<style type="text/css">
+			#tynamoLoginFormContainer {
+				background: url(${asset:classpath:org/tynamo/security/img/login-bg.png}) no-repeat;
+				width:778px;
+				height:600px;
+				margin:0 auto;
+			}
+
+			#tynamoLoginForm {
+				padding: 90px 110px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="tynamoMessage">
+			${message}
+		</div>
+
+		<div class="rounded-border form-container">
+			<t:security.loginform />
+		</div>
+
+	</body>
+</html>
