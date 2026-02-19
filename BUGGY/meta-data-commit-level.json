@@ -1,0 +1,34 @@
+{
+    "id": 119,
+    "subject": "dbus-java",
+    "bug_id": "RegressionBug-119",
+    "source_file": "org/freedesktop/dbus/utils/generator/InterfaceCodeGeneratorTest.java",
+    "line_number": [],
+    "count_neg": 1,
+    "count_pos": 2,
+    "passing_test_identifiers": [
+        "org.freedesktop.dbus.utils.generator.InterfaceCodeGeneratorTest#testCreateNetworkManagerWirelessInterface",
+        "org.freedesktop.dbus.utils.generator.InterfaceCodeGeneratorTest#testCreateSelectedFirewallInterfaces"
+    ],
+    "failing_test_identifiers": [
+        "org.freedesktop.dbus.utils.generator.InterfaceCodeGeneratorTest#testCreateAllFirewallInterfaces"
+    ],
+    "source_directory": "dbus-java-utils/src/main/java",
+    "class_directory": "dbus-java-utils/target/classes",
+    "test_directory": "dbus-java-utils/src/test/java",
+    "test_class_directory": "dbus-java-utils/target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": [
+        "generated-dependencies/junit-jupiter-engine-5.6.2.jar",
+        "generated-dependencies/slf4j-api-1.7.30.jar",
+        "generated-dependencies/junit-jupiter-params-5.6.2.jar",
+        "generated-dependencies/junit-platform-engine-1.6.2.jar",
+        "generated-dependencies/opentest4j-1.2.0.jar",
+        "generated-dependencies/apiguardian-api-1.1.0.jar",
+        "generated-dependencies/junit-jupiter-api-5.6.2.jar",
+        "generated-dependencies/junit-platform-launcher-1.6.2.jar",
+        "generated-dependencies/junit-platform-commons-1.6.2.jar"
+    ]
+}

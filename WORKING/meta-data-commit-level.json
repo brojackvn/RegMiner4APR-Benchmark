@@ -1,0 +1,22 @@
+{
+    "id": 119,
+    "subject": "dbus-java",
+    "bug_id": "RegressionBug-119",
+    "source_file": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.freedesktop.dbus.utils.generator.InterfaceCodeGeneratorTest#testCreateAllFirewallInterfaces"
+    ],
+    "source_directory": "dbus-java-utils/src/main/java",
+    "class_directory": "dbus-java-utils/target/classes",
+    "test_directory": "dbus-java-utils/src/test/java",
+    "test_class_directory": "dbus-java-utils/target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": [],
+    "method_fault": ""
+}
