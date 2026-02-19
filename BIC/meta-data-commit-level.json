@@ -1,0 +1,22 @@
+{
+    "id": 139,
+    "subject": "univocity-parsers",
+    "bug_id": "RegressionBug-139",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.univocity.parsers.common.input.WriterCharAppenderTest#testAppendAndExpandWhenAppendingChar"
+    ],
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
