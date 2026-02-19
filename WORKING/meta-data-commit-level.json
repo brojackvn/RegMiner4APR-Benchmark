@@ -8,7 +8,12 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.cronutils.utils.descriptor.Issue281Test#shouldAcceptLastDayOfMonth",
+        "com.cronutils.utils.descriptor.Issue281Test#shouldAcceptFirstMonth",
+        "com.cronutils.utils.descriptor.Issue281Test#shouldAcceptLastMonth",
+        "com.cronutils.utils.descriptor.Issue281Test#shouldAcceptFirstDayOfMonth"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
