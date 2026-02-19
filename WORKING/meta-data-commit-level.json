@@ -1,0 +1,22 @@
+{
+    "id": 128,
+    "subject": "spring-hateoas",
+    "bug_id": "RegressionBug-128",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.springframework.hateoas.mvc.ControllerLinkBuilderUnitTest#createsLinkRelativeToContextRoot"
+    ],
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
