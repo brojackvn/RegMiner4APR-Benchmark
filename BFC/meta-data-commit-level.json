@@ -7,7 +7,9 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "org.jongo.query.BsonQueryFactoryTest#shouldBindParameterWithCustomLongToken"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
