@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "subject": "gson",
+    "bug_id": "RegressionBug-117",
+    "source_file": "",
+    "method_fault": "",
+    "line_number": [],
+    "count_neg": 0,
+    "count_pos": 0,
+    "passing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_filledJsonObject",
+        "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_emptyJsonObject"
+    ],
+    "source_directory": "gson/src/main/java",
+    "class_directory": "gson/target/classes",
+    "test_directory": "gson/src/test/java",
+    "test_class_directory": "gson/target/test-classes",
+    "language": "java",
+    "java_version": "8",
+    "build_system": "maven",
+    "dependencies": []
+}
