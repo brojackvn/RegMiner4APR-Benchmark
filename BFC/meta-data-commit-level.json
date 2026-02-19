@@ -8,7 +8,10 @@
     "count_neg": 0,
     "count_pos": 0,
     "passing_test_identifiers": [],
-    "failing_test_identifiers": [],
+    "failing_test_identifiers": [
+        "com.alibaba.druid.bvt.sql.UnsignedBigIntTest#test_mysqlUnsignedBitInt",
+        "com.alibaba.druid.bvt.sql.UnsignedBigIntTest#test_postgresqlUnsignedBitInt"
+    ],
     "source_directory": "src/main/java",
     "class_directory": "target/classes",
     "test_directory": "src/test/java",
