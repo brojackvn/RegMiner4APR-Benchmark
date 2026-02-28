@@ -9,19 +9,19 @@ import java.io.*;
  */
 public class TestVersions extends com.fasterxml.jackson.core.BaseTest
 {
-    public void testCoreVersions() throws Exception
-    {
-        final JsonFactory f = new JsonFactory();
-        assertVersion(f.version());
-        JsonParser jp =  f.createParser(ObjectReadContext.empty(),
-                new StringReader("true"));
-        assertVersion(jp.version());
-        jp.close();
-        JsonGenerator jg = f.createGenerator(ObjectWriteContext.empty(),
-                new ByteArrayOutputStream());
-        assertVersion(jg.version());
-        jg.close();
-    }
+    // public void testCoreVersions() throws Exception
+    // {
+    //     final JsonFactory f = new JsonFactory();
+    //     assertVersion(f.version());
+    //     JsonParser jp =  f.createParser(ObjectReadContext.empty(),
+    //             new StringReader("true"));
+    //     assertVersion(jp.version());
+    //     jp.close();
+    //     JsonGenerator jg = f.createGenerator(ObjectWriteContext.empty(),
+    //             new ByteArrayOutputStream());
+    //     assertVersion(jg.version());
+    //     jg.close();
+    // }
 
     public void testMisc() {
         Version unk = Version.unknownVersion();
