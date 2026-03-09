@@ -230,7 +230,7 @@ subprojects { subproject ->
 		}
 	}
 
-    compileKotlin.dependsOn updateCopyrights
+    // compileKotlin.dependsOn updateCopyrights
 
 	test {
 		jacoco {

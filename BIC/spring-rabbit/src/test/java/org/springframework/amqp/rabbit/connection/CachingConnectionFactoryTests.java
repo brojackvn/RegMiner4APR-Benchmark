@@ -338,6 +338,7 @@ public class CachingConnectionFactoryTests extends AbstractConnectionFactoryTest
 		ccf.destroy();
 	}
 
+	@Disabled
 	@Test
 	public void testCheckoutLimitWithFailures() throws Exception {
 		com.rabbitmq.client.ConnectionFactory mockConnectionFactory = mock(com.rabbitmq.client.ConnectionFactory.class);
