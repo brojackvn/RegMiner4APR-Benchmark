@@ -1,4 +1,4 @@
-# RegressionBug4APR-Benchmark (Java Portion)
+# RegressionBug4APR-Benchmark-Java
 # RegressionBug4APR-Regression-Bugs
 
 ## 📄 Repository Structure
@@ -13,7 +13,7 @@ RegressionBug-i
 |___ WORKING
 ```
 
-## 📜 RegressionBug4APR - REGRESSION BUGS
+## 📜 RegressionBug4APR - JAVA REGRESSION BUGS
 
 Below is the raw bug information, prior to the migration of test cases and their dependencies.
 
