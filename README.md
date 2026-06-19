@@ -1,5 +1,5 @@
-# RegMiner4APR-Benchmark
-# RegMiner4APR-Regression-Bugs
+# RegressionBug4APR-Benchmark (Java Portion)
+# RegressionBug4APR-Regression-Bugs
 
 ## 📄 Repository Structure
 
@@ -13,7 +13,7 @@ RegressionBug-i
 |___ WORKING
 ```
 
-## 📜 REGMINER4APR - REGRESSION BUGS
+## 📜 RegressionBug4APR - REGRESSION BUGS
 
 Below is the raw bug information, prior to the migration of test cases and their dependencies.
 
